@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
  * main - Determines if num is greater than 5, is 0 or is less than 6 and not 0
  *
