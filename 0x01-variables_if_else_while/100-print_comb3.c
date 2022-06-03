@@ -9,28 +9,22 @@ int main(void)
 {
 	int i, e;
 
-	i = 48;
-	e = 48;
-
-	while (e < 58)
+	for (i = '0'; i <= '9'; i++)
 	{
-		i = 48;
-		while (i < 58)
+		for (e = '0'; e <= '9'; e++)
 		{
-			if (e != i && e < i)
+			if (i < e)
 			{
-				putchar(e);
 				putchar(i);
-				if (i == 57 && e == 56)
+				putchar(e);
+
+				if (i != '8' || (i == '8' && i != '9'))
 				{
-					break;
-				}
 				putchar(',');
 				putchar(' ');
+				}
 			}
-			i++;
 		}
-		e++;
 	}
 	putchar('\n')
 	return (0);
