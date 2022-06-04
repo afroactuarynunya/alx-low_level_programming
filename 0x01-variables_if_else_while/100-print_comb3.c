@@ -3,8 +3,8 @@
 /**
  * main -Prints all possible different combinations of two digits
  *
- * Return: Always 0 (Success)
-*/
+ * Return: Always (Success)
+ */
 int main(void)
 {
 	int i, k;
