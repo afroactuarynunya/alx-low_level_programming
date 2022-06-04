@@ -7,18 +7,18 @@
 */
 int main(void)
 {
-	int i, e;
+	int i, k;
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (e = '0'; e <= '9'; e++)
+		for (k = '0'; k <= '9'; k++)
 		{
-			if (i < e)
+			if (i < k)
 			{
 				putchar(i);
-				putchar(e);
+				putchar(k);
 
-				if (i != '8' || (i == '8' && e != '9'))
+				if (i != '8' || (i == '8' && k != '9'))
 				{
 					putchar(',');
 					putchar(' ');
@@ -26,6 +26,8 @@ int main(void)
 			}
 		}
 	}
+
 	putchar('\n')
+
 	return (0);
 }
