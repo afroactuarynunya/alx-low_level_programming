@@ -3,8 +3,8 @@
 /**
  * main -Prints all possible different combinations of two digits
  *
- * Return: Always (Success)
- */
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int i, k;
@@ -26,8 +26,6 @@ int main(void)
 			}
 		}
 	}
-
-	putchar('\n')
-
+	putchar('\n');
 	return (0);
 }
